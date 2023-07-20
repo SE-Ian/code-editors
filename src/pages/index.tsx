@@ -93,12 +93,33 @@ const Home = () => {
             </Text>
             <iframe
               src="https://codesandbox.io/embed/new?codemirror=1&fontsize=14&hidenavigation=0&theme=dark"
-              height="500px"
-              style={{ width: '1000px' }}
+              style={{
+                width: '1000px',
+                height: '500px',
+                marginBottom: '40px',
+              }}
               title="charming-lamport-zz5xfp"
               allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
               sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
             ></iframe>
+
+            <Text fontSize={20} fontWeight={600} marginBottom={5}>
+              Using Repl.it code editor in game dev
+            </Text>
+            <iframe
+              src="https://replit.com/@IanChege/gamez?embed=true"
+              style={{
+                height: '500px',
+                width: '1000px',
+                marginBottom: '40px',
+              }}
+            ></iframe>
+
+            {/* <iframe
+              src="https://castynettest.whereby.com/demo-9c2d5aab-e4ab-46b6-9a96-cd7375efdeeb"
+              allow="camera; microphone; fullscreen; speaker; display-capture"
+              style={{ height: '700px', width: '100%' }}
+            ></iframe> */}
           </>
         )}
 
